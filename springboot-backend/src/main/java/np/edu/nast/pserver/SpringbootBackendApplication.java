@@ -22,8 +22,8 @@ public class SpringbootBackendApplication {
                         .allowedOriginPatterns(
                             "https://deploysmartpayroll.netlify.app",
                             "https://deploysmartpayroll.netlify.app/",
-                            "http://localhost:4200",
-                            "http://localhost:8080"
+                            // "http://localhost:4200",
+                            // "http://localhost:8080"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
